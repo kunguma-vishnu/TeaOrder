@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TEA Order</title>
+    <script src="tea-order.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h3>TEA Order</h3>
+    <div class="inupt-ui">
+      <label for="no_of_tea">Enter TEA count</label>
+      <input type="number" id="no_of_tea" min="1">
+      <br><br>
+      <label for="preference_count">Enter Ur Prefernce Count</label>
+      <input type="number" id="preference_count" min="1">
+      <br><br>
+      <label for="green_tea">Enter Green TEA Count</label>
+      <input type="number" id="green_tea">
+      <br><br>
+      <label for="black_tea">Enter Black TEA Count</label>
+      <input type="number" id="black_tea">
+      <br><br>
+      <button type="button" onclick="teaOrder()">Derive Order</button>
+    </div>
+    <div class="result">
+      <p id="order"></p>
+    </div>
+  </body>
+</html>
